@@ -70,10 +70,10 @@ int main()
     a+=15;//Assignment operator += here a+=15 expands to a=a+15
     printf("Value of a:%d\n",a);
     printf("----------------------------\n");
-    printf("Sizee of int: %d\n",sizeof(a));//Sizeof returns the size of the operand
-    printf("Sizee of float: %d\n",sizeof(float));//Sizeof returns the size of the operand
-    printf("Sizee of double: %d\n",sizeof(double));//Sizeof returns the size of the operand
-    printf("Sizee of char: %d\n",sizeof(char));//Sizeof returns the size of the operand
+    printf("Size of int: %d\n",sizeof(a));//Sizeof returns the size of the operand
+    printf("Size of float: %d\n",sizeof(float));//Sizeof returns the size of the operand
+    printf("Size of double: %d\n",sizeof(double));//Sizeof returns the size of the operand
+    printf("Size of char: %d\n",sizeof(char));//Sizeof returns the size of the operand
     printf("----------------------------\n");
     return 0;
 }
